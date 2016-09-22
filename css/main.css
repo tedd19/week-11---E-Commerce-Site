@@ -1,0 +1,36 @@
+#container {}
+
+#header {}
+
+#nav {}
+
+#body {}
+
+.main {}
+
+.side {}
+
+#footer {}
+
+
+
+@media (max-width: 600px) {
+
+}
+
+@media (min-width: 601px) {
+
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+/* hides HTML from IE-mac\*/
+*html .clearfax {height: 1%;}
+.clearfax {display: block;}
+/* end hide from IE-mac */
